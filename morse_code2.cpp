@@ -1,14 +1,12 @@
 #include "morse_code2.h"
 #include <iostream>
 
-std::string	get_input()
+std::string	morse_code::get_input()
 {
-    std::vector<int> in;
-
 	return "j";
 }
 
-void display()
+void morse_code::display()
 {
 
 }
@@ -16,7 +14,7 @@ void display()
 int main(int argc, char *argv[])
 {
     morse_code morse;
-    std::string s = get_input();
+    std::string s = morse.get_input();
 	return 0;
 }
 
